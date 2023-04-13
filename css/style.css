@@ -1,6 +1,7 @@
 body {
-    background-color: hsl(34, 95%, 79%)
-    
+    background-color: hsl(34, 95%, 79%);
+    margin: 0;
+    padding: 0;
 }
 
 a {
