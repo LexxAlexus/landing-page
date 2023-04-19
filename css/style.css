@@ -8,17 +8,16 @@ body {
 .header {
     background: rgb(255, 250, 250);
     background: linear-gradient(90deg, rgba(255, 250, 250, 0.6783088235294117) 48%, rgba(244, 221, 202, 0.9444152661064426) 97%);
-    height: 120px;
+    height: 125px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+    padding: 20px 70px;
     gap: 10px;
 }
 
 ul {
     list-style: none;
-    margin: 0;
+    margin-bottom: 50px;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -30,6 +29,7 @@ ul {
     height: 100px;
     box-shadow: 5px 5px 7px #b98a6a;
     border-radius: 25px;
+
 }
 
 span {
@@ -37,8 +37,7 @@ span {
     font-size: 35px;
     font-weight: 700;
     color: #b98a6a;
-    text-shadow: 3px 3px 3px rgb(242, 238, 238);
-    align-self: center;
+    text-shadow: 6px 3px 3px rgb(251, 215, 186);
     margin-right: auto;
 }
 
@@ -47,7 +46,7 @@ a:visited {
     color: #b98a6a;
     font-weight: 600;
     text-decoration: none;
-    text-shadow: 4px 4px 4px rgb(242, 238, 238);
+    text-shadow: 4px 4px 4px rgb(251, 215, 186);
     
 }
 
@@ -56,4 +55,22 @@ a:hover {
     background-color: aliceblue;
     border-radius: 8px;
     padding: 8px;
+}
+
+.market {
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 250, 250);
+    background: linear-gradient(90deg, rgba(255, 250, 250, 0.6783088235294117) 48%, rgba(244, 221, 202, 0.9444152661064426) 97%);
+    padding-left: 50px;
+}
+
+.quote {
+    margin-top: -15px;
+}
+
+.word-wrap {
+    width: 200px;
+    word-wrap: break-word;
+    margin-left: 20px;
 }
