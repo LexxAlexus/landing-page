@@ -1,8 +1,13 @@
+* {
+    border: 2px solid black;
+}
+
 body {
     background: rgb(238, 195, 174);
     background: radial-gradient(circle, rgba(238, 195, 174, 0.9500175070028011) 48%, rgba(228, 179, 109, 0.9444152661064426) 97%);
-    margin: 0;
-    padding: 0;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .header {
@@ -59,7 +64,7 @@ a:hover {
 
 .market {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between ;
     background: rgb(255, 250, 250);
     background: linear-gradient(90deg, rgba(255, 250, 250, 0.6783088235294117) 48%, rgba(244, 221, 202, 0.9444152661064426) 97%);
     padding-left: 50px;
@@ -73,4 +78,10 @@ a:hover {
     width: 200px;
     word-wrap: break-word;
     margin-left: 20px;
+}
+
+.pic {
+    height: 220px;
+    width: auto;
+    margin-left: 100px;
 }
