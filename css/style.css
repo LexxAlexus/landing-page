@@ -30,17 +30,21 @@ html {
     width: 100px;
 }
 
-.logo-name {
-    display: inline-block;
-}
-
 .page-start {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    position: relative;
+
 }
 
-nav {
-    border: 1px solid black;
+.logo-name {
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+}
+
+nav .links {
     display: flex;
     gap: 10px;
 }
