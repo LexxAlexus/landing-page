@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 html {
@@ -23,4 +24,23 @@ html {
     width: 80%;
     margin: 0 auto;
     padding: 40px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo-name {
+    display: inline-block;
+}
+
+.page-start {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
 }
