@@ -28,25 +28,23 @@ html {
     background-color: rgba(255, 255, 255, 0.535);
     width: 80%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px 40px;
 }
 
-.logo {
-    width: 100px;
+.logo-name,
+nav .links {
+    font-size: 14px;
+    margin-bottom: 75px;
 }
 
 .page-start {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    position: relative;
-
 }
 
 .logo-name {
     display: inline-block;
-    position: absolute;
-    left: 95px;
     text-transform: uppercase;
     font-style: italic;
     color: rgb(35, 80, 65);
@@ -56,4 +54,30 @@ html {
 nav .links {
     display: flex;
     gap: 10px;
+}
+
+.pic-2 {
+    width: 350px;
+    height: auto;
+    box-shadow: 10px 5px 5px rgb(138, 249, 216);
+    border-radius: 20px;
+}
+
+/* List Style */
+
+ul .list {
+    list-style: none;
+}
+
+a:link,
+:visited {
+    text-decoration: none;
+    color: rgb(35, 80, 65);
+    text-shadow: 2px 2px 3px rgb(138, 249, 216);
+}
+
+a:hover {
+    background-color: rgba(110, 158, 142, 0.848);
+    border-radius: 15px; 
+    padding: 8px;
 }
