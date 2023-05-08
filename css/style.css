@@ -112,13 +112,7 @@ a:hover {
     height: auto;
 }
 
-.pic-two-flex {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-
 .title {
-    display: flex;
+   display: flex;
+   justify-content: space-between;
 }
-
